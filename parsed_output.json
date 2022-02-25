@@ -1,0 +1,125 @@
+[
+    {
+        "name": "Berlin",
+        "clusters": [
+            {
+                "name": "BER-1",
+                "security_level": 1,
+                "networks": [
+                    {
+                        "ipv4_network": "192.168.0.0/24",
+                        "entries": [
+                            {
+                                "address": "192.168.0.1",
+                                "available": false,
+                                "last_used": "2020-01-30T16:00:00"
+                            },
+                            {
+                                "address": "192.168.0.2",
+                                "available": false,
+                                "last_used": "2020-01-30T17:00:00"
+                            },
+                            {
+                                "address": "192.168.0.3",
+                                "available": true,
+                                "last_used": "2020-01-30T17:00:00"
+                            },
+                            {
+                                "address": "192.168.0.4",
+                                "available": true,
+                                "last_used": "2020-01-30T17:00:00"
+                            }
+                        ]
+                    },
+                    {
+                        "ipv4_network": "10.0.8.0/22",
+                        "entries": [
+                            {
+                                "address": "10.0.8.0",
+                                "available": false,
+                                "last_used": "2020-01-30T16:00:00"
+                            },
+                            {
+                                "address": "10.0.8.1",
+                                "available": false,
+                                "last_used": "2020-01-30T16:00:00"
+                            },
+                            {
+                                "address": "10.0.11.254",
+                                "available": true,
+                                "last_used": "2020-01-30T17:00:00"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "BER-203",
+                "security_level": 3,
+                "networks": [
+                    {
+                        "ipv4_network": "192.168.10.0/24",
+                        "entries": [
+                            {
+                                "address": "192.168.10.5",
+                                "available": false,
+                                "last_used": "2020-01-30T17:00:00"
+                            },
+                            {
+                                "address": "192.168.10.6",
+                                "available": false,
+                                "last_used": "2020-01-30T17:00:00"
+                            },
+                            {
+                                "address": "192.168.10.8",
+                                "available": true,
+                                "last_used": "2020-01-30T17:00:00"
+                            }
+                        ]
+                    },
+                    {
+                        "ipv4_network": "192.168.11.0/24",
+                        "entries": [
+                            {
+                                "address": "192.168.11.1",
+                                "available": true,
+                                "last_used": "2020-01-30T17:00:00"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Paris",
+        "clusters": [
+            {
+                "name": "PAR-1",
+                "security_level": 5,
+                "networks": [
+                    {
+                        "ipv4_network": "192.168.203.0/24",
+                        "entries": [
+                            {
+                                "address": "192.168.203.19",
+                                "available": false,
+                                "last_used": "2020-01-30T17:00:00"
+                            },
+                            {
+                                "address": "192.168.203.20",
+                                "available": true,
+                                "last_used": "2020-01-30T17:00:00"
+                            },
+                            {
+                                "address": "192.168.203.21",
+                                "available": false,
+                                "last_used": "2020-01-30T17:00:00"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
